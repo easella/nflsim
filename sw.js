@@ -5,7 +5,8 @@ const assets = [
   "/",
   "/index.html",
   "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
-  "/nfl.png"
+  "/nfl.png",
+  "/form.html"
 ];
 
 self.addEventListener("install", installEvent => {
