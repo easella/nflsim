@@ -1,6 +1,7 @@
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/",
+  "/nfl.jpeg",
   "/index.html",
  "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css""
 ];
