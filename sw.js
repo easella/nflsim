@@ -1,0 +1,1 @@
+self.addEventListener('install', (e)=>{e.waitUntil( caches.open('fox-store').then((cache)=> cache.addAll([ "/","/sw.js","https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"])), );});self.addEventListener('fetch', (e)=>{console.log(e.request.url); e.respondWith( caches.match(e.request).then((response)=> response || fetch(e.request)), );});
